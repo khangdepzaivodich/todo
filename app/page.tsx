@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
-import { FaRegCircle, FaRegCircleCheck } from "react-icons/fa6";
-
+import { FaRegCircle } from "react-icons/fa";
+import { FaRegCircleCheck } from "react-icons/fa6";
 export default function Home() {
   interface Todo {
     task: string;
